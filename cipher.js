@@ -27,3 +27,7 @@ function decodeText() {
   const input = document.getElementById("inputText").value;
   document.getElementById("outputText").value = stepShift(input, false);
 }
+function clearText() {
+  document.getElementById("inputText").value = "";
+  document.getElementById("outputText").value = "";
+}
